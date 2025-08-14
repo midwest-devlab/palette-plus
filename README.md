@@ -28,3 +28,22 @@ Early development. Watch the repo or star it to follow along!
 ## Local Dev (soon)
 We’ll use a simple **pnpm workspaces** monorepo:
 
+palette-plus/
+packages/
+ui/ # React component(s)
+apps/
+browser-ext/ # MV3
+vscode-ext/ # Webview
+
+
+Setup scripts and instructions will land here when the scaffold is pushed.
+
+---
+
+## Contributing
+Issues and PRs welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+## License
+[MIT](LICENSE) © Midwest DevLab
