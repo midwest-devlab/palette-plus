@@ -47,7 +47,7 @@
     "prepublishOnly": "pnpm build",
     "publish": "npm publish --access public"
   },
-  "publishConfig": { "access": "public", "provenance": true },
+  "publishConfig": { "access": "public" },
   "repository": { "type": "git", "url": "git+https://github.com/midwest-devlab/palette-plus.git" },
   "bugs": { "url": "https://github.com/midwest-devlab/palette-plus/issues" },
   "homepage": "https://github.com/midwest-devlab/palette-plus#readme",
