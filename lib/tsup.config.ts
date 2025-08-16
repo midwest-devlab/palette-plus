@@ -11,5 +11,5 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   target: "es2020",
-  external: ["react", "react-dom"]
+  external: ["react", "react-dom","@midwestdevlab/palette-plus"]
 });
