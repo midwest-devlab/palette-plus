@@ -1,6 +1,6 @@
 {
   "name": "palette-plus-root",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "sync:palette": "node scripts/sync-palette.cjs",
