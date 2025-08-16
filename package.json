@@ -8,7 +8,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lib:build": "pnpm --filter ./lib build"
+    "lib:build": "pnpm --filter ./lib build",
+    "lib:release": "pnpm --filter ./lib release",
+    "lib:version:patch": "cd lib && npm version patch",
+    "lib:version:minor": "cd lib && npm version minor",
+    "lib:version:major": "cd lib && npm version major"
   },
   "dependencies": {
     "@midwestdevlab/palette-plus": "file:lib/midwestdevlab-palette-plus-0.1.0.tgz",
