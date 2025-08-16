@@ -1,6 +1,6 @@
 {
   "name": "@midwestdevlab/palette-plus",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "Palette+ — color utilities and UI components",
   "license": "MIT",
   "author": "Midwest DevLab",
@@ -14,7 +14,7 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-      "./dev": {
+    "./dev": {
       "types": "./dist/dev.d.ts",
       "import": "./dist/dev.js",
       "require": "./dist/dev.cjs"
@@ -47,9 +47,22 @@
     "prepublishOnly": "pnpm build",
     "publish": "npm publish --access public"
   },
-  "publishConfig": { "access": "public" },
-  "repository": { "type": "git", "url": "git+https://github.com/midwest-devlab/palette-plus.git" },
-  "bugs": { "url": "https://github.com/midwest-devlab/palette-plus/issues" },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midwest-devlab/palette-plus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/midwest-devlab/palette-plus/issues"
+  },
   "homepage": "https://github.com/midwest-devlab/palette-plus#readme",
-  "keywords": ["palette", "color", "ui", "react", "design-system"]
+  "keywords": [
+    "palette",
+    "color",
+    "ui",
+    "react",
+    "design-system"
+  ]
 }
