@@ -1,0 +1,55 @@
+{
+  "name": "@midwestdevlab/palette-plus",
+  "version": "0.1.0",
+  "description": "Palette+ — color utilities and UI components",
+  "license": "MIT",
+  "author": "Midwest DevLab",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+      "./dev": {
+      "types": "./dist/dev.d.ts",
+      "import": "./dist/dev.js",
+      "require": "./dist/dev.cjs"
+    },
+    "./prod": {
+      "types": "./dist/prod.d.ts",
+      "import": "./dist/prod.js",
+      "require": "./dist/prod.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "build": "tsup --config tsup.config.ts",
+    "prepublishOnly": "pnpm build",
+    "publish": "npm publish --access public"
+  },
+  "publishConfig": { "access": "public", "provenance": true },
+  "repository": { "type": "git", "url": "git+https://github.com/midwest-devlab/palette-plus.git" },
+  "bugs": { "url": "https://github.com/midwest-devlab/palette-plus/issues" },
+  "homepage": "https://github.com/midwest-devlab/palette-plus#readme",
+  "keywords": ["palette", "color", "ui", "react", "design-system"]
+}

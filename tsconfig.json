@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./lib/src/*"],
+      "@midwestdevlab/palette-plus": ["./lib/src/index.ts"],
+      "@midwestdevlab/palette-plus/dev": ["./lib/src/dev.ts"],
+      "@midwestdevlab/palette-plus/prod": ["./lib/src/prod.tsx"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

@@ -1,0 +1,15 @@
+/* Generated from .palette-plus/palette.json */
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-500: #3b82f6;
+  --color-primary-900: #1e3a8a;
+  --color-primary: var(--color-primary-500);
+  --color-accent-100: #fce7f3;
+  --color-accent-500: #ec4899;
+  --color-accent: var(--color-accent-500);
+  --color-ui-50: #f9fafb;
+  --color-ui-500: #6b7280;
+  --color-ui-900: #111827;
+  --color-ui: var(--color-ui-500);
+}
